@@ -1,7 +1,7 @@
 Maintenance
 ===========
 
-A plugin to activate/diactivate maintenance mode for CakePHP apps.  
+A plugin to activate/deactivate maintenance mode for CakePHP apps.  
 There's a view file if you need to change the message or appearance. 
 
 Usage
