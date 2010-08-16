@@ -1,0 +1,19 @@
+Maintenance
+===========
+
+A plugin to activate/diactivate maintenance mode for CakePHP apps.  
+There's a view file if you need to change the message or appearance. 
+
+Usage
+-----
+
+Load the component in you app_controller.php
+
+    var $components = array('Maintenance.Maintenance');
+
+This will force your application into maintenance mode, so each request will be redirected to **/maintenance**.
+
+How if you want the URL like **/** ? That's easy ... look at maintenance/config/settings.php and read the example or just copy require_once block into APP/config/routes.php and put on top of other URL patterns.
+
+    require_once App::pluginPath('maintenance').'/config/routes.php';
+
